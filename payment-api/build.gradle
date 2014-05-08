@@ -1,0 +1,12 @@
+apply plugin: 'jetty'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.sparkjava:spark-core:1.1.1'
+    compile 'org.apache.httpcomponents:httpclient:4.2.5'
+    compile 'com.google.code.gson:gson:2.2.3'
+    compile files('./2checkout-java.jar')
+}
